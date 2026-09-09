@@ -1,0 +1,117 @@
+Stored Procedure:
+  are precompiled collections of one or more sql statements that can be executed as a unit , they help improve performance and security by encapsulating on the server side 
+
+SYNTAX:
+      CREATE PROCEDURE ProcedureName
+      AS
+      BEGIN
+     -SQL STATEMENTS
+      END;
+
+Normalization
+    is the process of organizing the fields and tables of a relational db.
+    Types-1NF,2NF,3NF,BCNF.
+    BCNF-a column or set of columns that can uniquely identify the rest of the columns.
+
+Entity-relationship diagram
+     is a graphical representation of entities(tables) and their relationship to each other with in a db
+
+COMPONENETS
+   1.Entities- Tables
+        ex-order , customer
+   2.Attributes- Column name 
+        ex-name, address
+  3. Relationship-rectangle
+  4.Primary key - underline
+  5.Foreign key- dot
+  6.Cardinality- relationship
+    .one to one
+    .one to many
+    .many to many
+
+
+ String function 
+          .Concat
+           syntax
+         SELECT CONCAT('HELLO','',''WORLD)
+          .Substring
+              syntax
+              SELECT SUBSTRING('HELLO WORLD')
+         .Length
+            syntax
+       SELECT LENGTH('HELLO WORLD')
+           .Upper
+       syntax
+              SELECT UPPER('HELLO WORLD')
+          .Lower
+             syntax
+              SELECT LOWER('HELLO WORLD')
+         .Replace
+                 syntax
+              SELECT REPLACE('HELLO WORLD')
+          .Round
+               syntax
+              SELECT ROUND(123.3456,2)
+          .Floor 
+                     syntax
+              SELECT FLOOR(12.99)
+          .Rand
+               syntax
+              SELECT RAND(12.01)
+          
+
+        .Date and time function
+          .NOW()
+              SELECT NOW();
+          .DATE_ADD
+              SELECT DATE_ADD('2024-08-27',INTERVAL 10 DAY);
+          .DATE_SUB
+              SELECT DATE_SUB('2024-08-27',INTERVAL 10 DAY);
+           .DATEDIFF
+             SELECT DATEDIFF('2024-08-27','2024-08-27');
+         .MONTH
+                SELECT MONTH('2024-08-27');
+           .DAY
+                SELECT DAY('2024-08-27');
+
+
+
+
+WINDOW FUNCTION
+
+          perform calculation across a set of table row related to the current row.They are powerfull for complex analytics and reports,the partition by clause in integral to window functions.
+           .ROW_NUMBER().RANK(),DENSE_RANK()
+           .LEAD(),LAG()
+           .SUM(),OVER()
+ 
+Syntax
+         <window_function> OVER{
+         PARTITION BY <expression>
+         ORDER BY <expression>
+         
+
+Triggers
+     are special types of stored procedure that automatically execute in response to certain events on a table or view 
+
+
+syntax
+      CREATE TRIGGER TRIGGER_NAME
+        AFTER INSERT ON TABLE_NAME
+        FOR EACH ROW 
+        BEGIN
+
+        END
+
+
+INDEX 
+
+   syntax 
+
+    CREATE INDEX index_name ON table_name(column_name);
+
+
+    
+            
+
+
+
