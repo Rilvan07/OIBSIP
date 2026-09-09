@@ -29,3 +29,13 @@ downstream cells reference the same column names.
 
 ## Files
 - `Unemployment_Analysis.ipynb` — full executed notebook with outputs.
+
+- ### Project Visualizations & Outputs
+
+![Time Series Trend](Time-Series%20Trend.png)
+
+![Top 10 States](Top%2010%20States%20by%20Average%20Unemployment.png)
+
+![Correlation Heatmap](correlation_heatmap.png)
+
+![COVID Impact](covid_impact.png)
