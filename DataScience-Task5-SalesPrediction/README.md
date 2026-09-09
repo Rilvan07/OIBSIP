@@ -27,3 +27,11 @@ with `pd.read_csv("Advertising.csv")`** — no other code needs to change.
 
 ## Files
 - `Sales_Prediction.ipynb` — full executed notebook with outputs.
+
+### Project Visualizations & Outputs
+
+![Correlation Matrix](Correlation%20matrix.png)
+
+![Pairwise Relationships](Pairwise%20relationships.png)
+
+![Sales Prediction Plots](sales_prediction_plots.png)
