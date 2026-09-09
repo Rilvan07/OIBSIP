@@ -1,3 +1,0 @@
-⭐comment for create a new react pad - npm create vite@latest
-
-⭐Run the comment - npm run dev
