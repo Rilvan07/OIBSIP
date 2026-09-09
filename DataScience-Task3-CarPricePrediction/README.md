@@ -29,3 +29,11 @@ download the real dataset from Kaggle and replace the generated dataframe with
 
 ## Files
 - `Car_Price_Prediction.ipynb` — full executed notebook with outputs.
+
+- ### Project Visualizations & Outputs
+
+![car price Analysis](car%20price%20Analysis.png)
+
+![Feature correlation heatmap](Feature%20correlation%20heatmap.png)
+
+![Random Forest Evaluation](Random%20Forest.png)
