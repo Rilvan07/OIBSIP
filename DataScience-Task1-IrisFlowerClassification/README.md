@@ -122,6 +122,13 @@ OIBSIP
 
 ```
 
+### Project Visualizations & Outputs
+
+![Box Plot](boxplot.png)
+
+![Confusion Matrix](confusion_matrix.png)
+
+![Pairplot](pairplot.png)
 
 
 \## 👨‍💻 Author
