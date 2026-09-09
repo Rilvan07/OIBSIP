@@ -29,3 +29,9 @@ the real dataset. **Before submitting, download the real dataset from Kaggle
 
 ## Files
 - `Email_Spam_Detection.ipynb` — full executed notebook with outputs.
+
+- ### Project Visualizations & Outputs
+
+![Spam vs Ham Counts](Spam%20vs%20Ham%20counts.png)
+
+![Confusion Matrix](spam_detection_matrix.png)
